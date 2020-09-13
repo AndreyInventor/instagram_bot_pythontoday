@@ -32,6 +32,4 @@ def login(username, password):
         browser.close()
         browser.quit()
 
-        print("Проверка, грузится ли на GitHub файл auth_data.py")
-
 login(username, password)
